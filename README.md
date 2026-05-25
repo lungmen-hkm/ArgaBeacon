@@ -174,6 +174,21 @@ pio run -e custom_esp32
 pio run -e custom_esp32 -t upload
 ```
 
+## Menggunakan Kode Plug-n-Play
+
+1. Pergi ke [Releases](https://github.com/lungmen-hkm/ArgaBeacon/releases)
+2. Download File yang diperlukan (.ps1 untuk windows) dan (.sh untuk linux)
+3. Untuk sistem operasi windows lakukan
+```PowerShell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\flash-arga.ps1
+```
+4. Untuk sistem operasi berbasis linux lakukan
+```bash
+chmod +x flash-arga.sh
+./flash-arga.sh
+```
+
 ## Configurasi
 
 Setelah flashing, sambungkan device dengan:
