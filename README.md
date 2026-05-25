@@ -184,14 +184,10 @@ Setelah flashing, sambungkan device dengan:
 
 ## Fitur
 
-- Long-range mesh communication (up to 5km line-of-sight)
-- Bluetooth connection for configuration
-- Optional GPS location tracking
-- Encrypted messaging
-- Low power consumption for extended battery life
-- Automatic message routing
-- Position sharing between nodes
-- Supports various channels & modulation schemes
+- Koneksi Mesh LoRa (up to 5km line-of-sight)
+- Koneksi Bluetooth untuk konfigurasi
+- GPS Tracker
+- Berbagi Koordinat secara langsung
 
 ## License
 
@@ -201,6 +197,7 @@ This project is licensed under the GNU General Public License v3.0 - see [LICENS
 
 - The Meshtastic project for the original firmware
 - The open-source community for support and testing
+- [charan-271](https://github.com/charan-271) for the codebase
 
 ## Special Thanks
 
