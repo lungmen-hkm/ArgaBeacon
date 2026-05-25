@@ -49,8 +49,6 @@ Pendaki melakukan absensi di camp menggunakan RFID dengan cara melakukan tapping
 
 Tombol tactile berfungsi sebagai tombol darurat yang akan mengirimkan koordinat lokasi pendaki melalui channel LongFast pada jaringan Meshtastic.
 
-Karena ketika seseorang jatuh ke jurang, kalimat “coba restart HP dulu” biasanya tidak terlalu membantu.
-
 ---
 
 # Konfigurasi Perkabelan
