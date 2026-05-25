@@ -158,11 +158,11 @@ if (!sx1278) {
 }
 ```
 
-## Building and Flashing the Custom Port
+## Membangun Custom Firmware
 
 1. Clone repositori ini
 2. Install PlatformIO
-3. Build the firmware:
+3. Bangun Custom firmware:
 
 ```bash
 pio run -e custom_esp32
@@ -174,7 +174,7 @@ pio run -e custom_esp32
 pio run -e custom_esp32 -t upload
 ```
 
-## Configuration
+## Configurasi
 
 Setelah flashing, sambungkan device dengan:
 
