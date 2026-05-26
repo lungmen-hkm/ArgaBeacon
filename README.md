@@ -189,6 +189,10 @@ chmod +x flash-arga.sh
 ./flash-arga.sh
 ```
 
+## Flash kode untuk unit absensi
+
+Gunakan kode [esp32.cpp](web-absensi/esp32.cpp) yang tersedia.
+
 ## Configurasi
 
 Setelah flashing, sambungkan device dengan:
