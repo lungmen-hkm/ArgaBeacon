@@ -177,7 +177,7 @@ pio run -e custom_esp32 -t upload
 ## Menggunakan Kode Plug-n-Play
 
 1. Pergi ke [Releases](https://github.com/lungmen-hkm/ArgaBeacon/releases)
-2. Download File yang diperlukan (.ps1 untuk windows) dan (.sh untuk linux)
+2. Download File yang diperlukan (.ps1 untuk windows), (.sh untuk linux), dan (-mac.sh untuk mac os)
 3. Untuk sistem operasi windows lakukan
 ```PowerShell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
@@ -188,10 +188,26 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 chmod +x flash-arga.sh
 ./flash-arga.sh
 ```
+5. Untuk sistem operasi mac os lakukan
+```bash
+chmod +x flash-arga-mac.sh
+./flash-arga-mac.sh
+```
 
 ## Flash kode untuk unit absensi
 
 Gunakan kode [esp32.cpp](web-absensi/esp32.cpp) yang tersedia.
+
+## Setup unit absensi
+
+1. Buka phpMyAdmin, Masuk ke:
+```txt
+http://localhost/phpmyadmin
+```
+2. Buat Database
+<img width="1100" height="211" alt="Screenshot 2026-05-26 142136" src="https://github.com/user-attachments/assets/87f3aac3-3aa6-49a9-b02f-4d5f33a4be83" />
+3. Buat Table, Klik database absensi_nfc. Masuk ke tab SQL. Paste query [setup.sql](web-absensi/setup.sql)
+4. Done!
 
 ## Configurasi
 
