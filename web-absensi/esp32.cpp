@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "ABSENSI";
-const char* password = "12345678";
+const char* ssid = "admin-camp";
+const char* password = "admin1234";
 
-String serverName = "http://192.168.1.10/api/absensi.php";
+String serverName = "http://localhost:8080/api/absensi.php";
 
 void kirimUID(String uid){
 
