@@ -204,10 +204,13 @@ Gunakan kode [esp32.cpp](web-absensi/esp32.cpp) yang tersedia.
 ```txt
 http://localhost/phpmyadmin
 ```
+
 2. Buat Database
 <img width="1100" height="211" alt="Screenshot 2026-05-26 142136" src="https://github.com/user-attachments/assets/87f3aac3-3aa6-49a9-b02f-4d5f33a4be83" />
+
 3. Buat Table, Klik database absensi_nfc. Masuk ke tab SQL. Paste query [setup.sql](web-absensi/setup.sql)
-4. Done!
+   
+5. Done!
 
 ## Configurasi
 
