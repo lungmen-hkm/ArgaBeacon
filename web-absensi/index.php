@@ -21,7 +21,7 @@ LIMIT 200
 <table>
     <tr>
         <th>Nama</th>
-        <th>UID</th>
+        <th>Nomor Tiket</th>
         <th>Waktu</th>
     </tr>
 
